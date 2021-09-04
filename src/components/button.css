@@ -1,0 +1,19 @@
+.btn-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.btn.btn-primary:hover{
+    cursor: pointer;
+    background-color: #10745b;
+}
